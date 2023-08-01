@@ -1,0 +1,12 @@
+PATCH: La solicitud PATCH se utiliza para realizar modificaciones parciales en un recurso. Es decir, 
+se utiliza para actualizar solo una parte específica de un recurso sin tener que enviar toda la información del recurso completo.
+ Es útil cuando solo se necesita modificar una parte pequeña del recurso y no es necesario enviar toda la representación completa.
+
+HEAD: La solicitud HEAD es similar a la solicitud GET, pero en lugar de devolver el cuerpo de la respuesta, solo devuelve los encabezados 
+de la respuesta. Se utiliza para obtener información sobre un recurso sin transferir realmente los datos del recurso en sí. Es útil para 
+verificar si un recurso existe, obtener detalles sobre el recurso o verificar la última vez que se modificó sin descargar todo el contenido.
+
+OPTIONS: La solicitud OPTIONS se utiliza para obtener información sobre las opciones y capacidades de comunicación disponibles en el servidor 
+para un recurso específico. Al realizar una solicitud OPTIONS, el servidor debe devolver los métodos HTTP que admite para ese recurso, los 
+encabezados permitidos y cualquier otra información relevante. Esta solicitud es útil para descubrir qué operaciones son posibles en un recurso 
+determinado antes de realizar la solicitud real.
